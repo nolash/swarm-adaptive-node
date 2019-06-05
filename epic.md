@@ -51,7 +51,7 @@ Adaptive and "light" node implementations is strongly demanded by several partie
 
 ## Issues ##
 
-- [ ] Updated handshake (transmit light node capability)
+- [ ] Updated handshake (transmit light node capability, possible already fixed https://github.com/ethersphere/swarm/pull/816)
 - [ ] Discriminate light node in Kademlia table
 - [ ] Add necessary new Kademlia iterators and update consumer code
 - [ ] Prevent hive/discovery from suggesting light nodes
