@@ -38,6 +38,7 @@ By resource-restricted we mean devices that have restrictions on one of more of:
 - bandwidth
 - cpu
 - storage
+- connectivity
 
 The node should be capable of any combination of three _modes of operation_:
 
