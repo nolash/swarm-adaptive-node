@@ -21,3 +21,5 @@ https://github.com/ethersphere/user-stories/issues/8
 ## Work estimate ##
 
 ## Related Issues ##
+
+https://github.com/ethersphere/user-stories/issues/10
