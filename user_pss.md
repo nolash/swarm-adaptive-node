@@ -20,6 +20,11 @@ https://github.com/ethersphere/user-stories/issues/8
 
 ## Requirements ##
 
+* Theoretical basis for connection strategy
+* Light node db in kademlia
+* Implement connection strategy in Hive/discovery 
+* Implement no forwarding in pss module kademlia
+
 ## Work estimate ##
 
 ## Related Issues ##
