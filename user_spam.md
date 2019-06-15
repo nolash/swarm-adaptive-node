@@ -22,6 +22,15 @@ https://github.com/ethersphere/user-stories/issues/8
 
 ## Acceptance criteria ##
 
+### Minimally viable
+
+1. The same or better than Whisper PoW for heterogenerous devices when it comes to DoS protection
+2. Some form of quantified griefing factor that is proportional to network load
+
+Example of 2 would be basic proof-of-burn that is proportional to the address,
+i.e. it costs more to send to a more neighborhood. Note that minimally viable
+doesn't include generalized incentivization of delivery and forwarding etc.
+
 ## Requirements ##
 
 ## Work estimate ##
