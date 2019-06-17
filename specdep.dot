@@ -15,6 +15,7 @@ digraph{
 	bzzclientrw [label="BZZ adaptive client readwrite",style="filled",fillcolor="pink"]
 	bzzserver [label="BZZ adaptive client readwrite",style="filled",fillcolor="pink"]
 	pssclient [label="PSS adaptive client",style="filled",fillcolor="lightblue"]
+	httpcap [label="HTTP capabilities API",style="filled",fillcolor="yellow"]
 	
 	overlay -> kademlia
 	overlay -> handshake
@@ -31,7 +32,7 @@ digraph{
 	{filehasher, db} -> storage
 	filehasher -> stream
 	stream -> lightextension
-	{storage, stream, lightextension} -> BZZ
+	{storage, stream, lightextension, httpcap} -> BZZ
 	bmthasher -> feeds -> BZZ
 
 	BZZ -> bzzclientread
