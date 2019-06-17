@@ -8,7 +8,7 @@ title: Hello Swarm on mobile
 
 ## User-Story ##
 
-I want to be able to run Swarm/PSS on mobile and get a basic end-to-end hello world going. This doesn't include connectivity strategies etc, and is expected to be naive.
+As an app developer, I want to be able to easily run Swarm/PSS on mobile and get a basic end-to-end hello world going. This doesn't include connectivity strategies etc, and is expected to be naive.
 
 This user story showcases examples on iOS and Android on how to make use of the compiled Swarm binaries.
 
