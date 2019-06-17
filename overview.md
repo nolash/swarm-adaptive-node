@@ -1,5 +1,7 @@
 # Overview
 
+**TODO: finalize what is in scope for Q3 and what is not**
+
 These divide up the various types of work according to what they produce. In general, there are several tracks, and they can often be done in parallel, depending on the resources available.
 
 ## Requirements and planning
@@ -9,10 +11,16 @@ These are requirements gathering, planning, estimation and resource planning rel
 - user_requirements (requirements)
 
 ### Not captured
-- requirements between user stories
-- time estimation
-- who will do what when
+
+- workflow
+  * mapping between user stories and tasks
+  * dependencies between tasks
+  * time estimation 
+  * who will do what when
 - research phase for more uncertain stuff not ready to be specified yet
+  * PSS spam protection
+  * PSS incentives
+  * Adaptive node service network incentivization
 
 ## Specifications
 
@@ -37,9 +45,11 @@ These are specifications that enable multiple clients to implement various Swarm
 - user_bzz_readwrite_spec (spec)
 
 ### Not captured
-- Spec for spam
+
+- Spec for spam protection
 - Spec for adaptive server node incentives
 - Cross-client compatibility considerations
+  * "As a BOSS I'd like to implement my own swarm client"
 
 ## Testing
 
@@ -48,10 +58,13 @@ These are various forms of testing that we want to do ensure our designs are ade
 user_pss_networktest (testing)
 
 ### Not captured
+
 - Other forms of testing necessary, e.g. for spam
 - Connection guarantees
 - Adaptive node switching on/off
 - Performance on resource restricted devices
+  * Simulated resource restrictions (memory, cpu...)
+  * Testing on _real_ resource restricted devices 
 
 ## Implementation
 
