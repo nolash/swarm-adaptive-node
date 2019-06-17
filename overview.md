@@ -25,16 +25,16 @@ These are specifications that enable multiple clients to implement various Swarm
 
 ### PSS track
 
-user_pss_spec (spec)
-user_pss_adaptive_server_spec (spec)
-user_pss_light_spec (spec)
+- user_pss_spec (spec)
+- user_pss_adaptive_server_spec (spec)
+- user_pss_light_spec (spec)
 
 ### BZZ track
 
-user_bzz_spec (spec)
-user_bzz_light_spec (spec)
-user_bzz_read_spec (spec)
-user_bzz_readwrite_spec (spec)
+- user_bzz_spec (spec)
+- user_bzz_light_spec (spec)
+- user_bzz_read_spec (spec)
+- user_bzz_readwrite_spec (spec)
 
 ### Not captured
 - Spec for spam
@@ -58,15 +58,15 @@ user_pss_networktest (testing)
 These are implementation and engineering focused user stories. They result in something production ready for end users.
 
 ### General
-user_discover (implementation)
-user_mobile (implementation)
-user_adaptive (implementation)
+- user_discover (implementation)
+- user_mobile (implementation)
+- user_adaptive (implementation)
 
 ### PSS track
-user_pss (implementation)
-user_pss_light (implementation)
-user_pss_spam (implementation)
+- user_pss (implementation)
+- user_pss_light (implementation)
+- user_pss_spam (implementation)
 
 ### BZZ track
-user_bzz_read (implementation)
-user_bzz_readwrite (implementation)
+- user_bzz_read (implementation)
+- user_bzz_readwrite (implementation)
