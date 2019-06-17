@@ -4,6 +4,8 @@ For epic describing this development track see [epic.md](./epic.md).
 
 For an overview of user stories and various phases in this work, see [overview.md](./overview.md).
 
+Draft of task scheduling can be found here [schedule.md](./schedule.md)
+
 ## DEPENDENCIES
 
 **This is a draft**
