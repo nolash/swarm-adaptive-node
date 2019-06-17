@@ -2,6 +2,8 @@
 
 For epic describing this development track see [epic.md](./epic.md).
 
+For an overview of user stories and various phases in this work, see [overview.md](./overview.md).
+
 ## MEETINGS
 
 - [bi-weekly](https://notes.status.im/swarm-adaptive-nodes?both)
