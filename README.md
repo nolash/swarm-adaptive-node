@@ -34,7 +34,7 @@ Dependencies:
 
 ### MINUTES
 
-- [2019.06.10](https://notes.status.im/oOJmxZgxQQ-KC_MjpVpokw#)
+- [2019.06.10 - call Oskar/Louis](https://notes.status.im/oOJmxZgxQQ-KC_MjpVpokw#)
 
 ## READING
 
