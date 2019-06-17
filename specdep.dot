@@ -9,16 +9,22 @@ digraph{
 	literaladdress [label="literal addressing"]
 	proxaddress [label="proximity addressing"]
 	psshandler [label="message handling"]
-	stream [labe="stream protocol"]
+	stream [label="stream protocol"]
+	lightdiscoverystrategy [label="lightnode connection strategy",style="filled",fillcolor="yellow"]
+	bzzclientread [label="BZZ adaptive client read",style="filled",fillcolor="pink"]
+	bzzclientrw [label="BZZ adaptive client readwrite",style="filled",fillcolor="pink"]
+	bzzserver [label="BZZ adaptive client readwrite",style="filled",fillcolor="pink"]
+	pssclient [label="PSS adaptive client",style="filled",fillcolor="lightblue"]
 	
 	overlay -> kademlia
 	overlay -> handshake
 
-	kademlia -> forwarding -> PSingS
+	kademlia -> forwarding -> PSS
 	pssprotocol -> PSS
 	{literaladdress, proxaddress} -> psshandler -> PSS
 
 	handshake -> BZZ
+	lightdiscoverystrategy -> discovery
 	kademlia -> discovery -> BZZ
 	kademlia -> hive -> BZZ
 	bmthasher -> filehasher
@@ -27,4 +33,9 @@ digraph{
 	stream -> lightextension
 	{storage, stream, lightextension} -> BZZ
 	bmthasher -> feeds -> BZZ
+
+	BZZ -> bzzclientread
+	BZZ -> bzzclientrw
+	BZZ -> bzzserver
+	PSS -> pssclient
 }
