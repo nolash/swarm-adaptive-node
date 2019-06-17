@@ -40,7 +40,7 @@ Dependencies:
 
 ### CURRENT
 
-- [Spec format example - status sunc protocol](https://github.com/status-im/bigbrother-specs/blob/master/data_sync/p2p-data-sync-mobile.md)
+- [Spec format example - status sunc protocol](https://github.com/status-im/bigbrother-specs/blob/mvds/data_sync/mvds.md)
 - [Light node connection strategies](https://swarmresear.ch/t/light-client-connection-strategy/17)
 
 ### ARCHIVE
