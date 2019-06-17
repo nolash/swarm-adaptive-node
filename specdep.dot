@@ -1,0 +1,30 @@
+digraph{
+	PSS [label="PSS spec",style="filled",fillcolor="lightblue"]
+	BZZ [label="BZZ spec",style="filled",fillcolor="pink"]
+	lightextension [label="direct retrieve and store protocol?",style="filled",fillcolor="yellow"]
+	discovery [label="discovery protocol"]
+	handshake [label="handshake protocol"]
+	pssprotocol [label="PSS protocol"]
+	overlay [label="swarm overlay address"]
+	literaladdress [label="literal addressing"]
+	proxaddress [label="proximity addressing"]
+	psshandler [label="message handling"]
+	stream [labe="stream protocol"]
+	
+	overlay -> kademlia
+	overlay -> handshake
+
+	kademlia -> forwarding -> PSingS
+	pssprotocol -> PSS
+	{literaladdress, proxaddress} -> psshandler -> PSS
+
+	handshake -> BZZ
+	kademlia -> discovery -> BZZ
+	kademlia -> hive -> BZZ
+	bmthasher -> filehasher
+	{filehasher, db} -> storage
+	filehasher -> stream
+	stream -> lightextension
+	{storage, stream, lightextension} -> BZZ
+	bmthasher -> feeds -> BZZ
+}
