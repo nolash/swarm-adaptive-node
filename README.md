@@ -4,7 +4,15 @@ For epic describing this development track see [epic.md](./epic.md).
 
 For an overview of user stories and various phases in this work, see [overview.md](./overview.md).
 
+## ROADMAP DEPENDENCIES
+
+**This is a draft**
+
+![](./dep.svg)
+
 ## SPECIFICATIONS
+
+**This is a draft**
 
 Dependencies:
 
@@ -16,7 +24,13 @@ Dependencies:
 
 ## NETWORK TESTING TRACK
 
-Network testing is an external development track
+(Network testing is an external development track)
+
+**This is a draft**
+
+Dependencies:
+
+![](./testdep.svg)
 
 ## MEETINGS
 
