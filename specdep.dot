@@ -10,7 +10,7 @@ digraph{
 	proxaddress [label="proximity addressing"]
 	psshandler [label="message handling"]
 	stream [label="stream protocol"]
-	lightdiscoverystrategy [label="lightnode connection strategy",style="filled",fillcolor="yellow"]
+	lightdiscoverystrategy [label="lightnode connection strategy"]
 	bzzclientread [label="BZZ adaptive client read",style="filled",fillcolor="pink"]
 	bzzclientrw [label="BZZ adaptive client readwrite",style="filled",fillcolor="pink"]
 	bzzserver [label="BZZ adaptive client readwrite",style="filled",fillcolor="pink"]

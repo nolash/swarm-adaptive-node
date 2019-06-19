@@ -198,7 +198,7 @@
 <!-- lightdiscoverystrategy -->
 <g id="node12" class="node">
 <title>lightdiscoverystrategy</title>
-<ellipse fill="#ffff00" stroke="#000000" cx="940.9418" cy="-234" rx="150.5735" ry="18"/>
+<ellipse fill="none" stroke="#000000" cx="940.9418" cy="-234" rx="150.5735" ry="18"/>
 <text text-anchor="middle" x="940.9418" y="-230.3" font-family="Times,serif" font-size="14.00" fill="#000000">lightnode connection strategy</text>
 </g>
 <!-- lightdiscoverystrategy&#45;&gt;discovery -->
