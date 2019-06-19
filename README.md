@@ -52,7 +52,7 @@ Draft of task scheduling can be found here [schedule.md](./schedule.md)
 
 ### CURRENT
 
-- [Spec format example - status sunc protocol](https://github.com/status-im/bigbrother-specs/blob/mvds/data_sync/mvds.md)
+- [Spec format example - status sync protocol](https://github.com/status-im/bigbrother-specs/blob/mvds/data_sync/mvds.md)
 - [Light node connection strategies](https://swarmresear.ch/t/light-client-connection-strategy/17)
 
 ### ARCHIVE
