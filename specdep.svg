@@ -12,13 +12,13 @@
 <!-- PSS -->
 <g id="node1" class="node">
 <title>PSS</title>
-<ellipse fill="#add8e6" stroke="#000000" cx="313.9418" cy="-90" rx="53.8905" ry="18"/>
-<text text-anchor="middle" x="313.9418" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">PSS spec</text>
+<ellipse fill="#000000" stroke="#000000" cx="313.9418" cy="-90" rx="53.8905" ry="18"/>
+<text text-anchor="middle" x="313.9418" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#ffffff">PSS spec</text>
 </g>
 <!-- pssclient -->
 <g id="node16" class="node">
 <title>pssclient</title>
-<ellipse fill="#add8e6" stroke="#000000" cx="313.9418" cy="-18" rx="102.0819" ry="18"/>
+<ellipse fill="#d3d3d3" stroke="#000000" cx="313.9418" cy="-18" rx="102.0819" ry="18"/>
 <text text-anchor="middle" x="313.9418" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">PSS adaptive client</text>
 </g>
 <!-- PSS&#45;&gt;pssclient -->
@@ -30,13 +30,13 @@
 <!-- BZZ -->
 <g id="node2" class="node">
 <title>BZZ</title>
-<ellipse fill="#ffc0cb" stroke="#000000" cx="1314.9418" cy="-90" rx="54.6905" ry="18"/>
-<text text-anchor="middle" x="1314.9418" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#000000">BZZ spec</text>
+<ellipse fill="#000000" stroke="#000000" cx="1314.9418" cy="-90" rx="54.6905" ry="18"/>
+<text text-anchor="middle" x="1314.9418" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#ffffff">BZZ spec</text>
 </g>
 <!-- bzzclientread -->
 <g id="node13" class="node">
 <title>bzzclientread</title>
-<ellipse fill="#ffc0cb" stroke="#000000" cx="1314.9418" cy="-18" rx="126.1777" ry="18"/>
+<ellipse fill="none" stroke="#000000" cx="1314.9418" cy="-18" rx="126.1777" ry="18"/>
 <text text-anchor="middle" x="1314.9418" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">BZZ adaptive client read</text>
 </g>
 <!-- BZZ&#45;&gt;bzzclientread -->
@@ -48,7 +48,7 @@
 <!-- bzzclientrw -->
 <g id="node14" class="node">
 <title>bzzclientrw</title>
-<ellipse fill="#ffc0cb" stroke="#000000" cx="1609.9418" cy="-18" rx="150.5735" ry="18"/>
+<ellipse fill="none" stroke="#000000" cx="1609.9418" cy="-18" rx="150.5735" ry="18"/>
 <text text-anchor="middle" x="1609.9418" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">BZZ adaptive client readwrite</text>
 </g>
 <!-- BZZ&#45;&gt;bzzclientrw -->
@@ -60,7 +60,7 @@
 <!-- bzzserver -->
 <g id="node15" class="node">
 <title>bzzserver</title>
-<ellipse fill="#ffc0cb" stroke="#000000" cx="1019.9418" cy="-18" rx="150.5735" ry="18"/>
+<ellipse fill="none" stroke="#000000" cx="1019.9418" cy="-18" rx="150.5735" ry="18"/>
 <text text-anchor="middle" x="1019.9418" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">BZZ adaptive client readwrite</text>
 </g>
 <!-- BZZ&#45;&gt;bzzserver -->

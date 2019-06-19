@@ -1,6 +1,6 @@
 digraph{
-	PSS [label="PSS spec",style="filled",fillcolor="lightblue"]
-	BZZ [label="BZZ spec",style="filled",fillcolor="pink"]
+	PSS [label="PSS spec",style="filled",fillcolor="black",fontcolor="white"]
+	BZZ [label="BZZ spec",style="filled",fillcolor="black",fontcolor="white"]
 	lightextension [label="direct retrieve and store protocol?",style="filled",fillcolor="yellow"]
 	discovery [label="discovery protocol"]
 	handshake [label="handshake protocol"]
@@ -11,10 +11,10 @@ digraph{
 	psshandler [label="message handling"]
 	stream [label="stream protocol"]
 	lightdiscoverystrategy [label="lightnode connection strategy"]
-	bzzclientread [label="BZZ adaptive client read",style="filled",fillcolor="pink"]
-	bzzclientrw [label="BZZ adaptive client readwrite",style="filled",fillcolor="pink"]
-	bzzserver [label="BZZ adaptive client readwrite",style="filled",fillcolor="pink"]
-	pssclient [label="PSS adaptive client",style="filled",fillcolor="lightblue"]
+	bzzclientread [label="BZZ adaptive client read"]
+	bzzclientrw [label="BZZ adaptive client readwrite"]
+	bzzserver [label="BZZ adaptive client readwrite"]
+	pssclient [label="PSS adaptive client",style="filled"]
 	httpcap [label="HTTP capabilities API",style="filled",fillcolor="yellow"]
 	
 	overlay -> kademlia
