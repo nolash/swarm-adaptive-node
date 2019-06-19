@@ -5,7 +5,6 @@ digraph {
 	hive [label="Hive suggest should traverse to neighbors only"]
 	distance_core [label="Methods for calculating and comparing distance",style="filled",fillcolor="lightblue"]
 	distance [label="Distance metric in pss forwarding for closest peer"]
-	//prox [label="Distance metric in pss proximity send receiver"]
 	helloworld [label="Hello world on mobile"]
 	mvp_aug [label="Swarm MVP aug 2019",style="filled",fillcolor="black",fontcolor="white"]
 	mvp_q3 [label="Adaptive Node MVP Q3",style="filled",fillcolor="black",fontcolor="white"]
@@ -13,10 +12,12 @@ digraph {
 	bitwise [label="Bitwise pss routing"]
 	spam [label="spam protection",style="filled",fillcolor="green"]
 	minspam [label="pss spam protection MVP"]
+	httpcaps [label="http capabilities API",style="filled",fillcolor="yellow"]
 	
 	distance_core -> distance -> helloworld
 	kademlia_db -> kademlia_access -> hive -> helloworld
 	discovery_caps -> helloworld
+	httpcaps -> helloworld
 
 	bitwise -> mvp_q3 
 	spam -> minspam -> mvp_q4
