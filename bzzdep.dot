@@ -1,0 +1,21 @@
+digraph {
+	distance_core [label="Methods for calculating and comparing distance",style="filled",fillcolor="lightblue"]
+	streaming_proto [label="streaming protocol refactor",style="filled",fillcolor="lightblue"]
+	retrieve_proto [label="Explicit retrieve protocol",style="filled",fillcolor="lightblue"]
+	pushsync [label="push sync",style="filled",fillcolor="lightblue"]
+	bzzl_readwrite [label="bzz light node read and write"]
+	hive_random_simple [label="light data connection random to one node"]
+	hive_random_redundant [label="light data connection to n random nodes"]
+	discovery_caps [label="Message type to change node capability"]
+	mvp_aug [label="Swarm MVP aug 2019",style="filled",fillcolor="black",fontcolor="white"]
+	mvp_q3 [label="Adaptive Node MVP Q3",style="filled",fillcolor="black",fontcolor="white"]
+	mvp_q4 [label="Adaptive Node MVP Q4",style="filled",fillcolor="black",fontcolor="white"]
+
+
+	distance_core -> streaming_proto -> retrieve_proto -> pushsync -> mvp_aug
+	retrieve_proto -> bzzl_read
+	hive_random_simple -> hive_random_redundant -> bzzl_read -> bzzl_readwrite
+	discovery_caps -> bzzl_read
+
+	mvp_aug -> bzzl_readwrite -> mvp_q3 -> mvp_q4
+}

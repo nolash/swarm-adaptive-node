@@ -8,15 +8,21 @@ Draft of task scheduling can be found here [schedule.md](./schedule.md)
 
 ## DEPENDENCIES
 
-**This is a draft**
+### PSS TRACK
 
-![](./dep.svg)
+**Status: Ready for review**
+
+![](./pssdep.svg)
+
+### BZZ TRACK
+
+**Status: Ready for review**
+
+![](./bzzep.svg)
 
 ### SPECIFICATIONS
 
-**This is a draft**
-
-Dependencies:
+**Status: Ready for review**
 
 ![](./specdep.svg)
 
@@ -24,9 +30,7 @@ Dependencies:
 
 (Network testing is an external development track)
 
-**This is a draft**
-
-Dependencies:
+**Status: Ready for review**
 
 ![](./testdep.svg)
 
