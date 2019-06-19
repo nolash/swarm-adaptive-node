@@ -1,7 +1,7 @@
 dot: *.dot
 
 *.dot:
-	dot $@ -T svg > $(basename $@).svg
-	dot $@ -T png > $(basename $@).png
+	dot $@ -T svg > gfx/$(basename $@).svg
+	dot $@ -T png > gfx/$(basename $@).png
 	
 
