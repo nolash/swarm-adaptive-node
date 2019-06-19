@@ -1,14 +1,14 @@
 ---
-name: PSS Light mode
-about: PSS Light mode
-title: "PSS Light mode"
+title: PSS Light mode
 ---
 
 ## Rationale ##
 
+Some devices and some scenarios come with restriced resources. Simulatenously these devices and scenarios may represent the bulk for end-users for applications building on Swarm. It must be possible to run Swarm with the bare necessities for the application's purpose.
+
 ## User-Story ##
 
-I want to run a node that uses as little bandwidth as possible. It should only send and receive pss messages. 
+As a dapp developer I want to be able to integrate with pss without having to forward traffic for other nodes. It should only send and receive pss messages. 
 
 I will not forward messages for the network.
 
@@ -20,10 +20,9 @@ https://github.com/ethersphere/user-stories/issues/8
 
 ## Requirements ##
 
-* Theoretical basis for connection strategy
-* Light node db in kademlia
-* Implement connection strategy in Hive/discovery 
+* Light node connectivity
 * Implement no forwarding in pss module kademlia
+* Ability to detect pss forwarding in network tests
 
 ## Work estimate ##
 

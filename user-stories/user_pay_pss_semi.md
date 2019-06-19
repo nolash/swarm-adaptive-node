@@ -1,12 +1,10 @@
 ---
-name: PSS incentivized partially addressed
-about: PSS incentivized partially addressed
 title: PSS incentivized partially addressed
 ---
 
 ## Rationale ##
 
-(Also) necessary for spam protection
+It should be profitable for nodes to support the pss network.
 
 ## User-Story ##
 
@@ -17,6 +15,8 @@ I want to pay the network to relay a partially addressed pss message for me. I n
 * Find price for a single routing hop of the message
 * Get a refund if I pay for more hops than were made.
 
+https://github.com/ethersphere/user-stories/issues/22
+
 ## Epic links ##
 
 https://github.com/ethersphere/user-stories/issues/8
@@ -24,6 +24,9 @@ https://github.com/ethersphere/user-stories/issues/8
 ## Acceptance criteria ##
 
 ## Requirements ##
+
+Pss incentivization theoretical basis
+Pss incentivization for full addressing
 
 ## Work estimate ##
 

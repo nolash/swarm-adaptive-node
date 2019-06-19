@@ -1,14 +1,14 @@
 ---
-name: Simple compilation of adaptive node
-about: Simple compilation of adaptive node
 title: Simple compilation of adaptive node
 ---
 
 ## Rationale ##
 
+To increase chances for adoption among developers, it is important that it's easy to get started and to iterate over implementation changes.
+
 ## User-Story ##
 
-I want to be able to compile adaptive node binaries for the most relevant targets using simple parameters to a single makefile.
+As an adaptive node operator I want to be able to easily compile binaries for the most relevant targets.
 
 ## Epic links ##
 
@@ -17,6 +17,8 @@ https://github.com/ethersphere/user-stories/issues/8
 ## Acceptance criteria ##
 
 ## Requirements ##
+
+None(?)
 
 ## Work estimate ##
 

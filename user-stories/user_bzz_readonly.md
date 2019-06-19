@@ -1,10 +1,10 @@
 ---
-name: Retrieval light node
-about: Retrieval light node
-title: "Retrieval light node"
+title: Light node bzz retrieve
 ---
 
 ## Rationale ##
+
+Some devices and some scenarios come with restriced resources. Simulatenously these devices and scenarios may represent the bulk for end-users for applications building on Swarm. It must be possible to run Swarm with the bare necessities for the application's purpose.
 
 ## User-Story ##
 
@@ -17,6 +17,10 @@ https://github.com/ethersphere/user-stories/issues/8
 ## Acceptance criteria ##
 
 ## Requirements ##
+
+* Light node connectivity
+* Streaming protocol refactor
+* Possibly new retrieval protocol
 
 ## Work estimate ##
 

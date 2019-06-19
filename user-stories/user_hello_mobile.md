@@ -1,10 +1,10 @@
 ---
-name: Hello Swarm on mobile
-about: Hello Swarm on mobile
 title: Hello Swarm on mobile
 ---
 
 ## Rationale ##
+
+Short-term milestone to help inform goal-oriented development
 
 ## User-Story ##
 
@@ -23,6 +23,6 @@ https://github.com/ethersphere/user-stories/issues/8
 
 ## Requirements ##
 
-## Work estimate ##
+Simple compilation of adaptive node
 
-## Related Issues ##
+## Work estimate ##

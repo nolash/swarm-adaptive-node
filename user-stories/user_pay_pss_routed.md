@@ -1,12 +1,10 @@
 ---
-name: PSS incentivized routed traffic
-about: PSS incentivized routed traffic
 title: PSS incentivized routed traffic
 ---
 
 ## Rationale ##
 
-(Also) necessary for spam protection
+It should be profitable for nodes to support the pss network.
 
 ## User-Story ##
 
@@ -18,6 +16,8 @@ I want to pay the network to relay a pss message for me. The message will have a
 * Find price for a single routing hop of the message
 * Get a refund if I pay for more hops than were made.
 
+https://github.com/ethersphere/user-stories/issues/22
+
 ## Epic links ##
 
 https://github.com/ethersphere/user-stories/issues/8
@@ -26,8 +26,8 @@ https://github.com/ethersphere/user-stories/issues/8
 
 ## Requirements ##
 
+Pss incentivization theoretical basis
+
 ## Work estimate ##
 
-## Related Issues ##
-
-https://github.com/ethersphere/user-stories/issues/22
+Not part of Q3

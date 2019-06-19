@@ -1,44 +1,54 @@
 ---
-name: adaptivenode_1
-about: Production grade MVP Adaptive Node implementation for Swarm
-title: "Swarm Adaptive Node 1.0"
-labels: epic
-assignees: 'oskarth,nolash'
-
+title: Swarm Adaptive Node MVP 1 (Q3)
 ---
 
 ## Rationale ##
 
-Create a production grade adaptive node suitable for resource-restricted devices. 
+It should be possible to use Swarm on as many types of devices and configurations as possible.
 
 ## Owner ##
 
-Swarm: Louis Holbrook @nolash
+- Swarm: Louis Holbrook @nolash
 
 ## Stakeholder Point of Contact ##
 
 - Status: Oskar Thorén @oskarth
 - Felfele: Attila Gazso @agazso
 - Mainframe: Paul Lecam @PaulLecam
+- Datafund: Daniel Nickless @significance
 
 ## Dependencies ##
 
-- Swarm MVP, specifically:
-	* Push sync
-	* Streamer refactor (allows add data without subscription/sync)
+### PSS TRACK
+
+![Missing pss dependency graph](https://raw.githubusercontent.com/nolash/swarm-adaptive-node/master/gfx/pssdep.svg)
+
+### BZZ TRACK
+
+![Missing bzz dependency graph](https://raw.githubusercontent.com/nolash/swarm-adaptive-node/master/gfx/bzzdep.svg)
+
+### NETWORK TEST REQUISITES
+
+![Missing network test dependency graph](https://raw.githubusercontent.com/nolash/swarm-adaptive-node/master/gfx/testdep.svg)
+
+### SPECIFICATIONS
+
+![Missing network test dependency graph](https://raw.githubusercontent.com/nolash/swarm-adaptive-node/master/gfx/testdep.svg)
 
 ### Optional ###
 
 ENR integration
+Migration from devp2p to libp2p
 
 ## Description ##
 
 By resource-restricted we mean devices that have restrictions on one of more of:
 
 - bandwidth
+- network latency
 - cpu
+- memory
 - storage
-- connectivity
 
 The node should be capable of any combination of three _modes of operation_:
 
@@ -48,20 +58,11 @@ The node should be capable of any combination of three _modes of operation_:
 
 ## Context ##
 
-Adaptive and "light" node implementations is strongly demanded by several parties currently working on Swarm integration.  This seems especially crucial for messaging, as the mode-de-jour market demand more or less exclusively is tied to smart phone platforms. 
+Some devices and some scenarios come with restriced resources. Simulatenously these devices and scenarios may represent the bulk for end-users for applications building on Swarm. It must be possible to run Swarm with the bare necessities for the application's purpose.
+
+Adaptive and "light" node implementations are strongly in demand by several parties currently working on Swarm integration. 
 
 ## Issues ##
-
-Needs merge with [original issue](https://github.com/ethersphere/swarm/issues/458)
-
-- [ ] Updated handshake (transmit light node capability, possible already fixed https://github.com/ethersphere/swarm/pull/816)
-- [ ] Discriminate light node in Kademlia table
-- [ ] Add necessary new Kademlia iterators and update consumer code
-- [ ] Prevent hive/discovery from suggesting light nodes
-- [ ] Theoretical basis for connection strategies
-- [ ] Implement light node connection strategies
-- [ ] Theoretical basis for adaptive mode of operation
-- [ ] Implement light node data retrieve and send strategies
 
 ## Acceptance criteria ##
 

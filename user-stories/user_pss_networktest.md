@@ -1,6 +1,4 @@
 ---
-name: Cluster PSS network testing
-about: Cluster PSS network testing
 title: Cluster PSS network testing
 ---
 
@@ -10,7 +8,7 @@ Need to prove that pss actually performs in an actual p2p networked environment
 
 ## User-Story ##
 
-I want to be able to run a simulation with up to 1000 docker nodes orchestrated by kubernetes.
+As a developer deciding whether or not to use pss, I want the best possible guarantee a simulation can give that pss actually can perform in a real life network setting.
 
 The simulation should be capable of generating a high arbitrary number pss message sends and verifying which nodes get which messages.
 
@@ -22,8 +20,14 @@ https://github.com/ethersphere/user-stories/issues/8
 
 ## Acceptance criteria ##
 
+Successfully run 1000 docker node network with complex message traffic of high volume
+
 ## Requirements ##
 
-## Work estimate ##
+- Kubernetes simulation framework orchestration
+- Bandwidth throttling simulation
+- Churn simulation
+- Pss message detection hooks
+- Test vectors
 
-## Related Issues ##
+## Work estimate ##
