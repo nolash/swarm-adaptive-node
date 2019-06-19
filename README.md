@@ -26,12 +26,6 @@ Draft of task scheduling can be found here [schedule.md](./schedule.md)
 
 ![](./bzzdep.svg)
 
-### SPECIFICATIONS
-
-**Status: Draft**
-
-![](./specdep.svg)
-
 ### NETWORK TESTING
 
 (Network testing is an external development track)
@@ -39,6 +33,12 @@ Draft of task scheduling can be found here [schedule.md](./schedule.md)
 **Status: Ready for review**
 
 ![](./testdep.svg)
+
+### SPECIFICATIONS
+
+**Status: Draft**
+
+![](./specdep.svg)
 
 ## MEETINGS
 
