@@ -4,8 +4,8 @@ digraph {
 	retrieve_proto [label="Explicit retrieve protocol",style="filled",fillcolor="yellow"]
 	pushsync [label="push sync",style="filled",fillcolor="lightblue"]
 	bzzl_readwrite [label="bzz light node read and write"]
-	hive_random_simple [label="light data connection random to one node"]
-	hive_random_redundant [label="light data connection to n random nodes"]
+	hive_random_simple [label="Hive suggest random one node"]
+	hive_random_redundant [label="Hive suggest n random nodes"]
 	discovery_caps [label="Message type to change node capability"]
 	httpcaps [label="http capabilities API",style="filled",fillcolor="yellow"]
 
