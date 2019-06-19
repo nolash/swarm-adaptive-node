@@ -1,0 +1,11 @@
+digraph legend_state {
+	undecided [label="Undecided feature",style="filled",fillcolor="yellow",group="state"]
+	complete [label="Completed feature",style="filled",fillcolor="lightgrey",group="state"]
+	milestone [label="Milestone",style="filled",fillcolor="black",fontcolor="white",group="state"]
+
+	undecided
+	complete
+	milestone	
+	
+}
+

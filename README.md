@@ -8,6 +8,12 @@ Draft of task scheduling can be found here [schedule.md](./schedule.md)
 
 ## DEPENDENCIES
 
+Legend:
+
+![](./legend_state.svg)
+
+![](./legend_track.svg)
+
 ### PSS TRACK
 
 **Status: Ready for review**

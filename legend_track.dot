@@ -1,0 +1,13 @@
+
+digraph legend_track {
+	comms [label="Comms track",group="track"]
+	test [label="Network testing track",style="filled",fillcolor="pink",group="track"]
+	incentives [label="Incentives track",style="filled",fillcolor="green",group="track"]
+	core [label="Core track",style="filled",fillcolor="lightblue",group="track"]
+
+	comms
+	core
+	test
+	incentives
+
+}
