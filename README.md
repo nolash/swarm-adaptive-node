@@ -24,7 +24,7 @@ Legend:
 
 **Status: Ready for review**
 
-![](./bzzep.svg)
+![](./bzzdep.svg)
 
 ### SPECIFICATIONS
 
