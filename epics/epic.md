@@ -21,19 +21,19 @@ It should be possible to use Swarm on as many types of devices and configuration
 
 ### PSS TRACK
 
-![Missing pss dependency graph](https://raw.githubusercontent.com/nolash/swarm-adaptive-node/master/gfx/pssdep.svg)
+![Missing pss dependency graph](https://raw.githubusercontent.com/nolash/swarm-adaptive-node/master/gfx/pssdep.png)
 
 ### BZZ TRACK
 
-![Missing bzz dependency graph](https://raw.githubusercontent.com/nolash/swarm-adaptive-node/master/gfx/bzzdep.svg)
+![Missing bzz dependency graph](https://raw.githubusercontent.com/nolash/swarm-adaptive-node/master/gfx/bzzdep.png)
 
 ### NETWORK TEST REQUISITES
 
-![Missing network test dependency graph](https://raw.githubusercontent.com/nolash/swarm-adaptive-node/master/gfx/testdep.svg)
+![Missing network test dependency graph](https://raw.githubusercontent.com/nolash/swarm-adaptive-node/master/gfx/testdep.png)
 
 ### SPECIFICATIONS
 
-![Missing network test dependency graph](https://raw.githubusercontent.com/nolash/swarm-adaptive-node/master/gfx/testdep.svg)
+![Missing network test dependency graph](https://raw.githubusercontent.com/nolash/swarm-adaptive-node/master/gfx/testdep.png)
 
 ### Optional ###
 
