@@ -14,7 +14,8 @@ digraph {
 	mvp_q4 [label="Adaptive Node MVP Q4",style="filled",fillcolor="black",fontcolor="white"]
 
 
-	distance_core -> streaming_proto -> retrieve_proto -> pushsync -> mvp_aug
+	distance_core -> streaming_proto -> retrieve_proto -> mvp_aug
+	distance_core -> pushsync -> mvp_aug
 	retrieve_proto -> bzzl_read
 	hive_random_simple -> hive_random_redundant -> bzzl_read -> bzzl_readwrite
 	discovery_caps -> bzzl_read
