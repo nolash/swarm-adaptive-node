@@ -8,7 +8,7 @@ Draft of task scheduling can be found here [schedule.md](./schedule.md)
 
 ## DEPENDENCIES
 
-Legend:
+**Legend**:
 
 ![](./legend_state.svg)
 
