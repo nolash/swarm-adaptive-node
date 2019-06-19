@@ -18,7 +18,7 @@
 <!-- pssclient -->
 <g id="node16" class="node">
 <title>pssclient</title>
-<ellipse fill="#d3d3d3" stroke="#000000" cx="313.9418" cy="-18" rx="102.0819" ry="18"/>
+<ellipse fill="none" stroke="#000000" cx="313.9418" cy="-18" rx="102.0819" ry="18"/>
 <text text-anchor="middle" x="313.9418" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#000000">PSS adaptive client</text>
 </g>
 <!-- PSS&#45;&gt;pssclient -->

@@ -14,7 +14,7 @@ digraph{
 	bzzclientread [label="BZZ adaptive client read"]
 	bzzclientrw [label="BZZ adaptive client readwrite"]
 	bzzserver [label="BZZ adaptive client readwrite"]
-	pssclient [label="PSS adaptive client",style="filled"]
+	pssclient [label="PSS adaptive client"]
 	httpcap [label="HTTP capabilities API",style="filled",fillcolor="yellow"]
 	
 	overlay -> kademlia
