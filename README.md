@@ -28,7 +28,7 @@ Draft of task scheduling can be found here [schedule.md](./schedule.md)
 
 ### SPECIFICATIONS
 
-**Status: Ready for review**
+**Status: Draft**
 
 ![](./specdep.svg)
 
