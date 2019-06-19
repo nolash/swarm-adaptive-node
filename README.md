@@ -28,7 +28,7 @@ Draft of task scheduling can be found here [schedule.md](./schedule.md)
 
 ### NETWORK TESTING
 
-(Network testing is an external development track)
+(Network testing is an external development track, this diagram shows how it fits into comms/adaptive nodes track)
 
 **Status: Ready for review**
 
