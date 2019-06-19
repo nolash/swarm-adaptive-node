@@ -10,21 +10,21 @@ Draft of task scheduling can be found here [schedule.md](./schedule.md)
 
 **Legend**:
 
-![](./legend_state.svg)
+![](./gfx/legend_state.svg)
 
-![](./legend_track.svg)
+![](./gfx/legend_track.svg)
 
 ### PSS TRACK
 
 **Status: Ready for review**
 
-![](./pssdep.svg)
+![](./gfx/pssdep.svg)
 
 ### BZZ TRACK
 
 **Status: Ready for review**
 
-![](./bzzdep.svg)
+![](./gfx/bzzdep.svg)
 
 ### NETWORK TESTING
 
@@ -32,13 +32,13 @@ Draft of task scheduling can be found here [schedule.md](./schedule.md)
 
 **Status: Ready for review**
 
-![](./testdep.svg)
+![](./gfx/testdep.svg)
 
 ### SPECIFICATIONS
 
 **Status: Draft**
 
-![](./specdep.svg)
+![](./gfx/specdep.svg)
 
 ## MEETINGS
 
