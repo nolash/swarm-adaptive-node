@@ -10,8 +10,8 @@ relations between tasks can be found in the dependency graph for subtracks:
 
 [spec; crossclient epic](http://holbrook.no/tmp/specdep.svg)
 
-|wk| subtrack | task | userstory |
-|:-|:---------|:-----|:----------|
+|week| subtrack | task | userstory |
+|:---|:---------|:-----|:----------|
 |26|| _(oskar vacation)_ | |
 |  | bzz,pss | methods for calculating and comparing distance | [PSS Light mode](https://github.com/ethersphere/user-stories/issues/43), [Light node bzz retrieve](https://github.com/ethersphere/user-stories/issues/37) |
 |  | networktest | integrate execadapter in swarm sim | [Cluster PSS network testing](https://github.com/ethersphere/user-stories/issues/44) |
@@ -20,7 +20,7 @@ relations between tasks can be found in the dependency graph for subtracks:
 |  | spec | kademlia ||
 |27|| (oskar vacation) ||
 |  | pss,bzz | lightnode records in kademlia | [PSS Light mode](https://github.com/ethersphere/user-stories/issues/43), [Light node bzz retrieve ](https://github.com/ethersphere/user-stories/issues/37) |
-|  | pss,bzz | message type to change node capability | https://github.com/ethersphere/user-stories/issues/36 |
+|  | pss,bzz | message type to change node capability | [Adaptive node operation](https://github.com/ethersphere/user-stories/issues/36) |
 |  | networktest | create and integrate dockeradapter | [Cluster PSS network testing](https://github.com/ethersphere/user-stories/issues/44) |
 |  | spec | pss protocol | 
 |  | spec | bzz adaptive mode message ||
@@ -30,7 +30,7 @@ relations between tasks can be found in the dependency graph for subtracks:
 |  | spec | stream protocol ||
 |  | spec | retrieve protocol ||
 |30||||
-|  | pss,bzz | kademlia iterators for light node | [PSS Light mode](https://github.com/ethersphere/user-stories/issues/43), [Light node bzz retrieve ](https://github.com/ethersphere/user-stories/issues/37) |
+|  | pss,bzz | kademlia iterators for light node | [PSS Light mode](https://github.com/ethersphere/user-stories/issues/43), [Light node bzz retrieve](https://github.com/ethersphere/user-stories/issues/37) |
 |  | networktest | integrate kubernetes orchestrations in simulations | [Cluster PSS network testing](https://github.com/ethersphere/user-stories/issues/44) |
 |31||||
 |  | pss | distance metric in pss forwarding for closest peer | [PSS Light mode](https://github.com/ethersphere/user-stories/issues/43) |
@@ -47,7 +47,7 @@ relations between tasks can be found in the dependency graph for subtracks:
 |  | spec | discovery protocol ||
 |33||||
 |  | pss | pss smoke tests | [Cluster PSS network testing](https://github.com/ethersphere/user-stories/issues/44) |
-|  | pss | hello world on mobile | [Hello PSS on mobile](https://github.com/ethersphere/user-stories/issues/40), [Simple compilation of adaptive node](https://github.com/ethersphere/user-stories/issues/41)) |
+|  | pss | hello world on mobile | [Hello PSS on mobile](https://github.com/ethersphere/user-stories/issues/40), [Simple compilation of adaptive node](https://github.com/ethersphere/user-stories/issues/41) |
 |  | bzz | streaming protocol refactor | [Light node bzz retrieve](https://github.com/ethersphere/user-stories/issues/37) |
 |  | bzz | explicit retrieve protocol | [Light node bzz retrieve](https://github.com/ethersphere/user-stories/issues/37) |
 |  | networktest | churn simulator | [Cluster PSS network testing](https://github.com/ethersphere/user-stories/issues/44) |
