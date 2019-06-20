@@ -34,7 +34,7 @@ relations between tasks can be found in the dependency graph for subtracks:
 |  | networktest | integrate kubernetes orchestrations in simulations | [Cluster PSS network testing](https://github.com/ethersphere/user-stories/issues/44) |
 |31||||
 |  | pss | distance metric in pss forwarding for closest peer | [PSS Light mode](https://github.com/ethersphere/user-stories/issues/43) |
-|  | pss,bzz | http capabilities API | [PSS Light mode](https://github.com/ethersphere/user-stories/issues/43), [Light node bzz retrieve](https://github.com/ethersphere/user-stories/issues/37) |
+|  | pss,bzz | http capabilities API | [PSS Light mode](https://github.com/ethersphere/user-stories/issues/43), [Light node bzz retrieve](https://github.com/ethersphere/user-stories/issues/37), [HTTP endpoint for adaptive node capabilities](https://github.com/ethersphere/user-stories/issues/34) |
 |  | bzz | push sync ||
 |  | networktest | api to detect received pss | [Cluster PSS network testing](https://github.com/ethersphere/user-stories/issues/44) |
 |  | spec | literal addressing ||
