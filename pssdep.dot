@@ -13,11 +13,13 @@ digraph {
 	spam [label="spam protection",style="filled",fillcolor="green"]
 	minspam [label="pss spam protection MVP"]
 	httpcaps [label="http capabilities API",style="filled",fillcolor="yellow"]
+	make [label="makefile for light platforms"]
 	
 	distance_core -> distance -> helloworld
 	kademlia_db -> kademlia_access -> hive -> helloworld
 	discovery_caps -> helloworld
 	httpcaps -> helloworld
+	make -> helloworld
 
 	bitwise -> mvp_q3 
 	spam -> minspam -> mvp_q4
