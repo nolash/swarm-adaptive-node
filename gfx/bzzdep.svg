@@ -51,8 +51,20 @@
 <path fill="none" stroke="#000000" d="M345.229,-359.8314C345.229,-352.131 345.229,-342.9743 345.229,-334.4166"/>
 <polygon fill="#000000" stroke="#000000" points="348.7291,-334.4132 345.229,-324.4133 341.7291,-334.4133 348.7291,-334.4132"/>
 </g>
+<!-- bzzl_read -->
+<g id="node5" class="node">
+<title>bzzl_read</title>
+<ellipse fill="none" stroke="#000000" cx="641.229" cy="-234" rx="138.3755" ry="18"/>
+<text text-anchor="middle" x="641.229" y="-230.3" font-family="Times,serif" font-size="14.00" fill="#000000">bzz light node retrieve only</text>
+</g>
+<!-- retrieve_proto&#45;&gt;bzzl_read -->
+<g id="edge6" class="edge">
+<title>retrieve_proto&#45;&gt;bzzl_read</title>
+<path fill="none" stroke="#000000" d="M409.4565,-290.3771C455.5079,-279.1754 517.6942,-264.049 566.0588,-252.2846"/>
+<polygon fill="#000000" stroke="#000000" points="566.9588,-255.6679 575.8482,-249.9034 565.3042,-248.8662 566.9588,-255.6679"/>
+</g>
 <!-- mvp_aug -->
-<g id="node10" class="node">
+<g id="node11" class="node">
 <title>mvp_aug</title>
 <ellipse fill="#000000" stroke="#000000" cx="345.229" cy="-234" rx="115.0796" ry="18"/>
 <text text-anchor="middle" x="345.229" y="-230.3" font-family="Times,serif" font-size="14.00" fill="#ffffff">Swarm MVP aug 2019</text>
@@ -63,18 +75,6 @@
 <path fill="none" stroke="#000000" d="M345.229,-287.8314C345.229,-280.131 345.229,-270.9743 345.229,-262.4166"/>
 <polygon fill="#000000" stroke="#000000" points="348.7291,-262.4132 345.229,-252.4133 341.7291,-262.4133 348.7291,-262.4132"/>
 </g>
-<!-- bzzl_read -->
-<g id="node13" class="node">
-<title>bzzl_read</title>
-<ellipse fill="none" stroke="#000000" cx="641.229" cy="-234" rx="55.4913" ry="18"/>
-<text text-anchor="middle" x="641.229" y="-230.3" font-family="Times,serif" font-size="14.00" fill="#000000">bzzl_read</text>
-</g>
-<!-- retrieve_proto&#45;&gt;bzzl_read -->
-<g id="edge6" class="edge">
-<title>retrieve_proto&#45;&gt;bzzl_read</title>
-<path fill="none" stroke="#000000" d="M409.4565,-290.3771C462.4276,-277.4922 536.7466,-259.4146 586.8226,-247.234"/>
-<polygon fill="#000000" stroke="#000000" points="587.9228,-250.5685 596.8122,-244.8041 586.2683,-243.7668 587.9228,-250.5685"/>
-</g>
 <!-- pushsync&#45;&gt;mvp_aug -->
 <g id="edge5" class="edge">
 <title>pushsync&#45;&gt;mvp_aug</title>
@@ -82,13 +82,19 @@
 <polygon fill="#000000" stroke="#000000" points="279.9386,-256.3207 288.2155,-249.7069 277.6206,-249.7156 279.9386,-256.3207"/>
 </g>
 <!-- bzzl_readwrite -->
-<g id="node5" class="node">
+<g id="node6" class="node">
 <title>bzzl_readwrite</title>
-<ellipse fill="none" stroke="#000000" cx="493.229" cy="-162" rx="147.5738" ry="18"/>
-<text text-anchor="middle" x="493.229" y="-158.3" font-family="Times,serif" font-size="14.00" fill="#000000">bzz light node read and write</text>
+<ellipse fill="none" stroke="#000000" cx="493.229" cy="-162" rx="161.3716" ry="18"/>
+<text text-anchor="middle" x="493.229" y="-158.3" font-family="Times,serif" font-size="14.00" fill="#000000">bzz light node retrieve and push</text>
+</g>
+<!-- bzzl_read&#45;&gt;bzzl_readwrite -->
+<g id="edge9" class="edge">
+<title>bzzl_read&#45;&gt;bzzl_readwrite</title>
+<path fill="none" stroke="#000000" d="M605.4023,-216.5708C585.3561,-206.8186 560.1633,-194.5627 538.7336,-184.1374"/>
+<polygon fill="#000000" stroke="#000000" points="540.0195,-180.8708 529.496,-179.6434 536.9572,-187.1655 540.0195,-180.8708"/>
 </g>
 <!-- mvp_q3 -->
-<g id="node11" class="node">
+<g id="node12" class="node">
 <title>mvp_q3</title>
 <ellipse fill="#000000" stroke="#000000" cx="493.229" cy="-90" rx="122.3786" ry="18"/>
 <text text-anchor="middle" x="493.229" y="-86.3" font-family="Times,serif" font-size="14.00" fill="#ffffff">Adaptive Node MVP Q3</text>
@@ -100,13 +106,13 @@
 <polygon fill="#000000" stroke="#000000" points="496.7291,-118.4132 493.229,-108.4133 489.7291,-118.4133 496.7291,-118.4132"/>
 </g>
 <!-- hive_random_simple -->
-<g id="node6" class="node">
+<g id="node7" class="node">
 <title>hive_random_simple</title>
 <ellipse fill="none" stroke="#000000" cx="658.229" cy="-378" rx="155.1726" ry="18"/>
 <text text-anchor="middle" x="658.229" y="-374.3" font-family="Times,serif" font-size="14.00" fill="#000000">Hive suggest random one node</text>
 </g>
 <!-- hive_random_redundant -->
-<g id="node7" class="node">
+<g id="node8" class="node">
 <title>hive_random_redundant</title>
 <ellipse fill="none" stroke="#000000" cx="641.229" cy="-306" rx="149.4735" ry="18"/>
 <text text-anchor="middle" x="641.229" y="-302.3" font-family="Times,serif" font-size="14.00" fill="#000000">Hive suggest n random nodes</text>
@@ -124,7 +130,7 @@
 <polygon fill="#000000" stroke="#000000" points="644.7291,-262.4132 641.229,-252.4133 637.7291,-262.4133 644.7291,-262.4132"/>
 </g>
 <!-- discovery_caps -->
-<g id="node8" class="node">
+<g id="node9" class="node">
 <title>discovery_caps</title>
 <ellipse fill="none" stroke="#000000" cx="1007.229" cy="-306" rx="198.4651" ry="18"/>
 <text text-anchor="middle" x="1007.229" y="-302.3" font-family="Times,serif" font-size="14.00" fill="#000000">Message type to change node capability</text>
@@ -132,11 +138,11 @@
 <!-- discovery_caps&#45;&gt;bzzl_read -->
 <g id="edge10" class="edge">
 <title>discovery_caps&#45;&gt;bzzl_read</title>
-<path fill="none" stroke="#000000" d="M923.7199,-289.572C854.9127,-276.0362 759.1447,-257.1965 698.6806,-245.302"/>
-<polygon fill="#000000" stroke="#000000" points="699.0409,-241.8058 688.5534,-243.3097 697.6897,-248.6742 699.0409,-241.8058"/>
+<path fill="none" stroke="#000000" d="M923.7199,-289.572C865.1839,-278.0567 787.1355,-262.7029 727.9109,-251.0522"/>
+<polygon fill="#000000" stroke="#000000" points="728.3163,-247.5649 717.8287,-249.0688 726.9651,-254.4333 728.3163,-247.5649"/>
 </g>
 <!-- httpcaps -->
-<g id="node9" class="node">
+<g id="node10" class="node">
 <title>httpcaps</title>
 <ellipse fill="#ffff00" stroke="#000000" cx="1330.229" cy="-306" rx="106.6812" ry="18"/>
 <text text-anchor="middle" x="1330.229" y="-302.3" font-family="Times,serif" font-size="14.00" fill="#000000">http capabilities API</text>
@@ -144,17 +150,17 @@
 <!-- httpcaps&#45;&gt;bzzl_read -->
 <g id="edge11" class="edge">
 <title>httpcaps&#45;&gt;bzzl_read</title>
-<path fill="none" stroke="#000000" d="M1253.5715,-293.4406C1240.4649,-291.4836 1226.9698,-289.5874 1214.229,-288 1030.2296,-265.075 811.8994,-247.0112 705.6942,-238.8072"/>
-<polygon fill="#000000" stroke="#000000" points="705.7017,-235.2975 695.4628,-238.0206 705.165,-242.2769 705.7017,-235.2975"/>
+<path fill="none" stroke="#000000" d="M1253.5715,-293.4406C1240.4649,-291.4836 1226.9698,-289.5874 1214.229,-288 1062.2443,-269.0638 886.8362,-253.4444 770.5431,-243.9587"/>
+<polygon fill="#000000" stroke="#000000" points="770.7781,-240.4663 760.5275,-243.145 770.2112,-247.4433 770.7781,-240.4663"/>
 </g>
 <!-- mvp_aug&#45;&gt;bzzl_readwrite -->
 <g id="edge12" class="edge">
 <title>mvp_aug&#45;&gt;bzzl_readwrite</title>
-<path fill="none" stroke="#000000" d="M380.6786,-216.7542C400.9568,-206.8892 426.5932,-194.4174 448.2752,-183.8694"/>
-<polygon fill="#000000" stroke="#000000" points="449.837,-187.0018 457.2982,-179.4798 446.7747,-180.7072 449.837,-187.0018"/>
+<path fill="none" stroke="#000000" d="M380.6786,-216.7542C400.8819,-206.9256 426.4041,-194.5094 448.035,-183.9862"/>
+<polygon fill="#000000" stroke="#000000" points="449.5791,-187.1273 457.0404,-179.6053 446.5168,-180.8327 449.5791,-187.1273"/>
 </g>
 <!-- mvp_q4 -->
-<g id="node12" class="node">
+<g id="node13" class="node">
 <title>mvp_q4</title>
 <ellipse fill="#000000" stroke="#000000" cx="493.229" cy="-18" rx="122.3786" ry="18"/>
 <text text-anchor="middle" x="493.229" y="-14.3" font-family="Times,serif" font-size="14.00" fill="#ffffff">Adaptive Node MVP Q4</text>
@@ -164,12 +170,6 @@
 <title>mvp_q3&#45;&gt;mvp_q4</title>
 <path fill="none" stroke="#000000" d="M493.229,-71.8314C493.229,-64.131 493.229,-54.9743 493.229,-46.4166"/>
 <polygon fill="#000000" stroke="#000000" points="496.7291,-46.4132 493.229,-36.4133 489.7291,-46.4133 496.7291,-46.4132"/>
-</g>
-<!-- bzzl_read&#45;&gt;bzzl_readwrite -->
-<g id="edge9" class="edge">
-<title>bzzl_read&#45;&gt;bzzl_readwrite</title>
-<path fill="none" stroke="#000000" d="M610.2033,-218.9064C589.3259,-208.7499 561.4648,-195.1958 538.1706,-183.8635"/>
-<polygon fill="#000000" stroke="#000000" points="539.6861,-180.7086 529.1626,-179.4812 536.6238,-187.0033 539.6861,-180.7086"/>
 </g>
 </g>
 </svg>

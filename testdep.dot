@@ -6,7 +6,8 @@ digraph {
 	test_pssdockerinit [label="PSS hello world test with docker nodes"]
 	test_churn [label="Churn simulator",style="filled",fillcolor="pink"]
 	test_drop [label="Payload drop simulator",style="filled",fillcolor="pink"]
-	test_throttle [label="Custom ping/bandwidth simulator",style="filled",fillcolor="pink"]
+	test_bandwidth [label="Custom bandwidth simulator",style="filled",fillcolor="pink"]
+	test_latency [label="Custom latency simulator",style="filled",fillcolor="pink"]
 	test_psssmoke [label="PSS smoke tests"]
 	test_pssmsghook [label="API to detect received PSS"]
 	test_pssfinal [label="PSS 1000 node docker cluster test"]
@@ -20,7 +21,8 @@ digraph {
 	test_psssmoke -> mvp_aug
 
 	test_churn -> test_sim2
-	test_throttle -> test_sim2
+	test_bandwidth -> test_sim2
+	test_latency -> test_sim2
 	test_drop -> test_sim2
 	test_sim2 -> test_pssfinal
 	test_pssmsghook -> test_pssfinal

@@ -4,39 +4,41 @@ digraph{
 	lightextension [label="direct retrieve and store protocol?",style="filled",fillcolor="yellow"]
 	discovery [label="discovery protocol"]
 	handshake [label="handshake protocol"]
+	adaptivemode [label="adaptive mode protocol"]
 	pssprotocol [label="PSS protocol"]
 	overlay [label="swarm overlay address"]
 	literaladdress [label="literal addressing"]
 	proxaddress [label="proximity addressing"]
-	psshandler [label="message handling"]
+	psshandler [label="PSS message handling"]
 	stream [label="stream protocol"]
 	lightdiscoverystrategy [label="lightnode connection strategy"]
 	bzzclientread [label="BZZ adaptive client read"]
 	bzzclientrw [label="BZZ adaptive client readwrite"]
-	bzzserver [label="BZZ adaptive client readwrite"]
+	bzzserver [label="BZZ adaptive server"]
 	pssclient [label="PSS adaptive client"]
+	pssserver [label="PSS adaptive server"]
 	httpcap [label="HTTP capabilities API",style="filled",fillcolor="yellow"]
 	
 	overlay -> kademlia
-	overlay -> handshake
+	overlay -> handshake -> adaptivemode
+	overlay -> stream
 
 	kademlia -> forwarding -> PSS
 	pssprotocol -> PSS
 	{literaladdress, proxaddress} -> psshandler -> PSS
 
-	handshake -> BZZ
+	adaptivemode -> BZZ
 	lightdiscoverystrategy -> discovery
 	kademlia -> discovery -> BZZ
 	kademlia -> hive -> BZZ
-	bmthasher -> filehasher
-	{filehasher, db} -> storage
+	bmthasher -> filehasher -> storage
+	db -> storage
 	filehasher -> stream
 	stream -> lightextension
 	{storage, stream, lightextension, httpcap} -> BZZ
 	bmthasher -> feeds -> BZZ
 
-	BZZ -> bzzclientread
-	BZZ -> bzzclientrw
-	BZZ -> bzzserver
-	PSS -> pssclient
+	BZZ -> bzzclientread -> bzzserver
+	BZZ -> bzzclientrw -> bzzserver
+	PSS -> pssclient -> pssserver
 }
